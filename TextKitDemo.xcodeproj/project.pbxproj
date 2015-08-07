@@ -14,6 +14,9 @@
 		BB42C1B11B74FE2500FAF2DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB42C1B01B74FE2500FAF2DB /* Images.xcassets */; };
 		BB42C1B41B74FE2500FAF2DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB42C1B21B74FE2500FAF2DB /* LaunchScreen.xib */; };
 		BB42C1C01B74FE2500FAF2DB /* TextKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB42C1BF1B74FE2500FAF2DB /* TextKitDemoTests.m */; };
+		BB42C1CB1B74FE6600FAF2DB /* ILTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = BB42C1CA1B74FE6600FAF2DB /* ILTextAttachment.m */; };
+		BB42C1CE1B75041500FAF2DB /* ILAttributedStringGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BB42C1CD1B75041500FAF2DB /* ILAttributedStringGenerator.m */; };
+		BB42C1D11B75124400FAF2DB /* StrHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = BB42C1D01B75124400FAF2DB /* StrHeight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		BB42C1B91B74FE2500FAF2DB /* TextKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB42C1BE1B74FE2500FAF2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB42C1BF1B74FE2500FAF2DB /* TextKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextKitDemoTests.m; sourceTree = "<group>"; };
+		BB42C1C91B74FE6600FAF2DB /* ILTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILTextAttachment.h; sourceTree = "<group>"; };
+		BB42C1CA1B74FE6600FAF2DB /* ILTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILTextAttachment.m; sourceTree = "<group>"; };
+		BB42C1CC1B75041500FAF2DB /* ILAttributedStringGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILAttributedStringGenerator.h; sourceTree = "<group>"; };
+		BB42C1CD1B75041500FAF2DB /* ILAttributedStringGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILAttributedStringGenerator.m; sourceTree = "<group>"; };
+		BB42C1CF1B75124400FAF2DB /* StrHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrHeight.h; sourceTree = "<group>"; };
+		BB42C1D01B75124400FAF2DB /* StrHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrHeight.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,12 @@
 				BB42C1B01B74FE2500FAF2DB /* Images.xcassets */,
 				BB42C1B21B74FE2500FAF2DB /* LaunchScreen.xib */,
 				BB42C1A31B74FE2500FAF2DB /* Supporting Files */,
+				BB42C1C91B74FE6600FAF2DB /* ILTextAttachment.h */,
+				BB42C1CA1B74FE6600FAF2DB /* ILTextAttachment.m */,
+				BB42C1CC1B75041500FAF2DB /* ILAttributedStringGenerator.h */,
+				BB42C1CD1B75041500FAF2DB /* ILAttributedStringGenerator.m */,
+				BB42C1CF1B75124400FAF2DB /* StrHeight.h */,
+				BB42C1D01B75124400FAF2DB /* StrHeight.m */,
 			);
 			path = TextKitDemo;
 			sourceTree = "<group>";
@@ -219,6 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB42C1D11B75124400FAF2DB /* StrHeight.m in Sources */,
+				BB42C1CE1B75041500FAF2DB /* ILAttributedStringGenerator.m in Sources */,
+				BB42C1CB1B74FE6600FAF2DB /* ILTextAttachment.m in Sources */,
 				BB42C1AC1B74FE2500FAF2DB /* ViewController.m in Sources */,
 				BB42C1A91B74FE2500FAF2DB /* AppDelegate.m in Sources */,
 				BB42C1A61B74FE2500FAF2DB /* main.m in Sources */,
