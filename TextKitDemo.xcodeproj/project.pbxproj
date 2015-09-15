@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40B9ED221BA7D444008937F0 /* NSTextAttachment+ILText.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B9ED211BA7D444008937F0 /* NSTextAttachment+ILText.m */; };
 		BB42C1A61B74FE2500FAF2DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB42C1A51B74FE2500FAF2DB /* main.m */; };
 		BB42C1A91B74FE2500FAF2DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB42C1A81B74FE2500FAF2DB /* AppDelegate.m */; };
 		BB42C1AC1B74FE2500FAF2DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB42C1AB1B74FE2500FAF2DB /* ViewController.m */; };
@@ -31,8 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		40B9ED201BA7D444008937F0 /* NSTextAttachment+ILText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextAttachment+ILText.h"; sourceTree = "<group>"; };
-		40B9ED211BA7D444008937F0 /* NSTextAttachment+ILText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextAttachment+ILText.m"; sourceTree = "<group>"; };
 		BB42C1A01B74FE2500FAF2DB /* TextKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB42C1A41B74FE2500FAF2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB42C1A51B74FE2500FAF2DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,8 +102,6 @@
 				BB42C1CA1B74FE6600FAF2DB /* ILTextAttachment.m */,
 				BB42C1CC1B75041500FAF2DB /* ILAttributedStringGenerator.h */,
 				BB42C1CD1B75041500FAF2DB /* ILAttributedStringGenerator.m */,
-				40B9ED201BA7D444008937F0 /* NSTextAttachment+ILText.h */,
-				40B9ED211BA7D444008937F0 /* NSTextAttachment+ILText.m */,
 				BB42C1CF1B75124400FAF2DB /* StrHeight.h */,
 				BB42C1D01B75124400FAF2DB /* StrHeight.m */,
 			);
@@ -241,7 +236,6 @@
 			files = (
 				BB42C1D11B75124400FAF2DB /* StrHeight.m in Sources */,
 				BB42C1CE1B75041500FAF2DB /* ILAttributedStringGenerator.m in Sources */,
-				40B9ED221BA7D444008937F0 /* NSTextAttachment+ILText.m in Sources */,
 				BB42C1CB1B74FE6600FAF2DB /* ILTextAttachment.m in Sources */,
 				BB42C1AC1B74FE2500FAF2DB /* ViewController.m in Sources */,
 				BB42C1A91B74FE2500FAF2DB /* AppDelegate.m in Sources */,

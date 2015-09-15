@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NSTextAttachment+ILText.h"
 
 @interface ILTextAttachment : NSTextAttachment
+
+@property (nonatomic, strong) NSString *image_type;
 
 @end
