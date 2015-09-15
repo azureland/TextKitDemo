@@ -11,6 +11,11 @@
 @implementation ILTextAttachment
 
 - (CGRect)attachmentBoundsForTextContainer:(NSTextContainer *)textContainer proposedLineFragment:(CGRect)lineFrag glyphPosition:(CGPoint)position characterIndex:(NSUInteger)charIndex {
+    NSLog(@" file type is %@", self.image_type);
+    if ([self.image_type isEqualToString:@"line"]) {
+        return CGRectMake(0, -2, lineFrag.size.height - 8, lineFrag.size.height - 8);
+    }
+    
     return CGRectMake(0, -2, lineFrag.size.height - 4, lineFrag.size.height - 4);
 }
 

@@ -77,6 +77,7 @@
 - (ILTextAttachment *)startImageAttachment {
     if (!_startImageAttachment) {
         _startImageAttachment = [[ILTextAttachment alloc] initWithData:nil ofType:nil];
+        [_startImageAttachment setImage_type:@"start"];
         [_startImageAttachment setImage:[UIImage imageNamed:@"start"]];
     }
     return _startImageAttachment;
@@ -92,6 +93,7 @@
 - (ILTextAttachment *)endImageAttachment {
     if (!_endImageAttachment) {
         _endImageAttachment = [[ILTextAttachment alloc] initWithData:nil ofType:nil];
+        [_endImageAttachment setImage_type:@"end"];
         [_endImageAttachment setImage:[UIImage imageNamed:@"end"]];
     }
     return _endImageAttachment;
@@ -108,6 +110,7 @@
 - (ILTextAttachment *)lineImageAttachment {
     if (!_lineImageAttachment) {
         _lineImageAttachment = [[ILTextAttachment alloc] initWithData:nil ofType:nil];
+        [_lineImageAttachment setImage_type:@"line"];
         [_lineImageAttachment setImage:[UIImage imageNamed:@"line"]];
     }
     return _lineImageAttachment;
